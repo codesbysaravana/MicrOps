@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext, useContext, useReducer } fro
 import { BrowserRouter as Router, Routes, Route, Link, Navigate, useNavigate } from "react-router-dom";
 import { DndProvider, useDrag, useDrop } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import JenkinsBuildForm from "./JenkinsBuildForm";
+import JenkinsBuildForm from "./components/JenkinsBuildForm";
 import "./styles.css";
 import axios from "axios";
 
